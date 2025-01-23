@@ -24,11 +24,7 @@ Ensure you have the following installed:
 
 
 ### Endpoints
-1. **Upload Data:** POST `/upload`
-   - Accepts a CSV file containing manufacturing data.
-2. **Train Model:** POST `/train`
-   - Trains the Random Forest model on the uploaded dataset and returns metrics.
-3. **Predict:** POST `/predict`
+1. **Predict:** POST `/predict`
    - Accepts JSON input (e.g., `{ "Temperature": 80, "Run_Time": 120 }`) and returns predictions (e.g., `{ "Downtime": "Yes", "Confidence": 0.85 }`).
 
 ### Example Request
